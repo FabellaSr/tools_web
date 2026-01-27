@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "🔌",
+    "title": "Servicios REST",
+    "description": "Probar GET/POST y visualizar responses de servicios del AS400.",
+    "path": "/services"
+  },
+  {
+    "icon": "📜",
+    "title": "Logs",
+    "description": "Ver historial de ejecuciones, estado (OK/ERROR), warnings y detalle.",
+    "path": "/logs"
+  },
+  {
+    "icon": "📦",
+    "title": "Instalacion",
+    "description": "Instalaciones as400.",
+    "path": "/Install"
+  },
+  {
+    "icon": "📦",
+    "title": "Instalaciones realizadas",
+    "description": "Exitosas o no.",
+    "path": "/Installs"
+  },
+  {
+    "icon": "📦",
+    "title": "MiCv",
+    "description": "Mi Cv.",
+    "path": "/MiCv"
+  }
+]

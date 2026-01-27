@@ -1,0 +1,12 @@
+{
+  "DESA-1234": [
+    { "ts": "2025-12-10T12:00:01", "level": "INFO", "msg": "Inicio instalación" },
+    { "ts": "2025-12-10T12:00:05", "level": "INFO", "msg": "Restore SAVF OK" },
+    { "ts": "2025-12-10T12:00:08", "level": "WARN", "msg": "Objeto X omitido (ya existía)" },
+    { "ts": "2025-12-10T12:00:12", "level": "INFO", "msg": "Fin OK" }
+  ],
+  "DSPI-88": [
+    { "ts": "2025-12-12T18:45:01", "level": "INFO", "msg": "Inicio instalación" },
+    { "ts": "2025-12-12T18:45:04", "level": "ERROR", "msg": "Fallo al copiar objeto PGM001" }
+  ]
+}

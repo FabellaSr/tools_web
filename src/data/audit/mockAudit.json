@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "ts": "2026-01-07T16:20:00",
+      "requestId": "e7021a39-913e-45ba-b2a5-37c87a95930d",
+      "usuario": "INF1IVAN",
+      "accion": "GET_INSTALLS",
+      "path": "wsriwl/A/CA/1",
+      "status": 200
+    },
+    {
+      "ts": "2026-01-07T16:23:10",
+      "requestId": "2ddee04e-61c6-4af0-9853-ffab723c9b18",
+      "usuario": "INF1IVAN",
+      "accion": "GET_INSTALLS",
+      "path": "wsriwl/A/CA/1",
+      "status": 401
+    },
+    {
+      "ts": "2026-01-07T16:28:44",
+      "requestId": "7a1b1d2e-aaaa-bbbb-cccc-111111111111",
+      "usuario": "INF1IVAN",
+      "accion": "GET_LOGS",
+      "path": "logs/DESA/859",
+      "status": 200,
+      "tipo": "DESA",
+      "numero": 859
+    }
+  ]
+}

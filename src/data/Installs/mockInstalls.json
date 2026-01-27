@@ -1,0 +1,30 @@
+[
+  {
+    "tipo": "DESA",
+    "nro": "1234",
+    "estado": 1,
+    "fechaIngreso": "10/12/25",
+    "fechaInstalacion": "10/12/25",
+    "hora": "12:00",
+    "usuario": "Usuario2",
+    "detalle": "Mensaje de instalacion"
+  },
+  {
+    "tipo": "DESA",
+    "nro": "1235",
+    "estado": 0,
+    "fechaIngreso": "11/12/25",
+    "fechaInstalacion": "",
+    "hora": "09:20",
+    "usuario": "Usuario1"
+  },
+  {
+    "tipo": "DSPI",
+    "nro": "88",
+    "estado": -1,
+    "fechaIngreso": "12/12/25",
+    "fechaInstalacion": "12/12/25",
+    "hora": "18:45",
+    "usuario": "Usuario3"
+  }
+]
