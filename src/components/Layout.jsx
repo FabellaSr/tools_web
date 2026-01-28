@@ -10,6 +10,7 @@ import {
   iconStyle,
 } from "../components/ui";
 import { logout, hasToken } from "../services/authService";
+import ChatWidget from "../components/ChatWidget";
 
 export default function Layout() {
   const [collapsed, setCollapsed] = useState(false);
@@ -66,6 +67,7 @@ export default function Layout() {
           margin: "0 auto",
         }}
       >
+         <ChatWidget />
         <Outlet />
       </main>
     </LayoutLeft>

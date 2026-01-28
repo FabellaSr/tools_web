@@ -13,4 +13,4 @@ export { default as InstallDetail } from "./PagesFuncionAS/InstallDetail";
 //Components    
 export { default as RequireAuth } from "../components/RequireAuth";
 
-export { default as MiCvPage } from "./MiCv";
+export { default as Layout } from "../components/Layout"

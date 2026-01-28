@@ -1,21 +1,20 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout"; 
-
 import {
   Home,
   Services,
   Logs,
   Install,
   Installs,
-  MiCvPage,
   InstallDetail,
   Login,
   Audit,
-  RequireAuth
+  RequireAuth,
+  Layout
 } from "./pages";
 
 
 export default function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
@@ -26,7 +25,6 @@ export default function App() {
           <Route path="/logs" element={<RequireAuth><Logs /></RequireAuth>} />
           <Route path="/logs/:tipo/:nro" element={<RequireAuth><Logs /></RequireAuth>} />
           <Route path="/installs" element={<RequireAuth> <Installs /></RequireAuth>}/>
-          <Route path="/MiCv" element={<MiCvPage />} />
           <Route path="/installs/:tipo/:nro" element={<RequireAuth><InstallDetail /></RequireAuth>} />
           <Route path="/login" element={<Login />} />
           <Route path="audit" element={<RequireAuth><Audit /></RequireAuth>} />

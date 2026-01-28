@@ -10,7 +10,7 @@ export default function Installs() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const title = "🧾 Instalaciones realizadas ";
+  const title = "🧾 Instalaciones realizadas!! ";
   const subtitle = "Instalaciones realizadas.";
   
   function load() {
@@ -23,6 +23,7 @@ export default function Installs() {
           (Array.isArray(data) && data) ||
           data?.items ||
           data?.data?.items ||
+          data?.data?.data ||
           [];
 
         setItems(list);
@@ -72,8 +73,8 @@ export default function Installs() {
       <OrderCards> 
         {sortedItems.map((i, idx) => (
           <CardN2
-            key={`${i.tipo}-${i.numero}-${idx}`}
-            title={`📦 ${i.tipo} ${i.numero}`}
+            key={`${i.Instalaciontipo}-${i.Instalacionnume}-${idx}`}
+            title={`📦 ${i.Instalaciontipo} ${i.Instalacionnume}`}
           >
             <div style={{ display: "grid", gap: 8 }}>
               <div style={{ display: "grid", gap: 6 }}>
