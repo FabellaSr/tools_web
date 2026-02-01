@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { postChatMessage, extractChatReply } from "../services/chatAiService";
-import { chatWidgetStyles } from "../components/uiChats"; // ajustá path si hace falta
+import { chatWidgetStyles } from "../estilos/uiChats"; // ajustá path si hace falta
 
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);

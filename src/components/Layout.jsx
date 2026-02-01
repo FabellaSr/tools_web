@@ -8,7 +8,7 @@ import {
   LayoutLeft,
   linkStyle,
   iconStyle,
-} from "../components/ui";
+} from "../estilos/ui";
 import { logout, hasToken } from "../services/authService";
 import ChatWidget from "../components/ChatWidget";
 

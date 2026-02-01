@@ -3,7 +3,7 @@ import {
   INSTALL_TYPES,
   buildEmptyInstallRequest,
 } from "../../models/installModels";
-import { Field, Select, CardN2, TitlePage, MyButton} from "../../components/ui";
+import { Field, Select, CardN2, TitlePage, MyButton} from "../../estilos/ui";
 import { startInstall } from "../../services/installService";
 
 const title = "🛠️ Realizar instalación ";

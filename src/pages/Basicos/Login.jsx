@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { CardN2, Field, Alert, MyButton, TitlePage} from "../../components/ui"; 
+import { CardN2, Field, Alert, MyButton, TitlePage} from "../../estilos/ui"; 
 import { login } from "../../services/authApi";
 import { setToken } from "../../services/authService";
 

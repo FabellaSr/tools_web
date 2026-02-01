@@ -9,7 +9,8 @@ import {
   Login,
   Audit,
   RequireAuth,
-  Layout
+  Layout,
+  UsersAdminPage
 } from "./pages";
 
 
@@ -20,6 +21,7 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/admin/users" element={<RequireAuth><UsersAdminPage /></RequireAuth>} />
           <Route path="/install" element={<RequireAuth><Install /></RequireAuth>} />
           <Route path="/services" element={<RequireAuth><Services /></RequireAuth>} />
           <Route path="/logs" element={<RequireAuth><Logs /></RequireAuth>} />

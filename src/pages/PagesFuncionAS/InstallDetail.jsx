@@ -1,6 +1,6 @@
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import { CardN2, OrderCards } from "../../components/ui";
-import { MyButton, TitlePage } from "../../components/ui";
+import { CardN2, OrderCards } from "../../estilos/ui";
+import { MyButton, TitlePage } from "../../estilos/ui";
 import { useEffect, useState } from "react";
 import { getInstallDetail } from "../../services/installService";
 

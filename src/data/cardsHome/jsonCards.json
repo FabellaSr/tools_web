@@ -28,5 +28,11 @@
     "title": "chat",
     "description": "Mi Cv.",
     "path": "/chat"
+  },
+  {
+    "icon": "📦",
+    "title": "NewUsers",
+    "description": "Mi Cv.",
+    "path": "/admin/users"
   }
 ]

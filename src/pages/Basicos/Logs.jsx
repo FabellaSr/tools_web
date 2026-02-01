@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { CardN2, MyButton, Alert, Field } from "../../components/ui";
+import { CardN2, MyButton, Alert, Field } from "../../estilos/ui";
 import { getLogsByTipoNro } from "../../services/logService";
 
 function levelIcon(level) {

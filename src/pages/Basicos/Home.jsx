@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { CardN1 , TitlePage, OrderCards } from "../../components/ui";
+import { CardN1 , TitlePage, OrderCards } from "../../estilos/ui";
 import HOME_CARDS from "../../data/cardsHome/data";
 
 const title = "🏠 Home ";

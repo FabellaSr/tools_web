@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { CardN2, MyButton, Alert, Field, OrderCards, TitlePage } from "../../components/ui";
+import { CardN2, MyButton, Alert, Field, OrderCards, TitlePage } from "../../estilos/ui";
 import { getAudit } from "../../services/auditService";
 
 function statusIcon(status) {

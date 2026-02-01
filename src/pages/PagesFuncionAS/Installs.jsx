@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { CardN2, MyButton, Alert, OrderCards, TitlePage } from "../../components/ui";
+import { CardN2, MyButton, Alert, OrderCards, TitlePage } from "../../estilos/ui";
 import { getInstalls } from "../../services/installService";
 
 export default function Installs() {
