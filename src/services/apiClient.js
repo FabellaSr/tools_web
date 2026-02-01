@@ -20,17 +20,17 @@ function makeRequestId() {
 apiClient.interceptors.request.use(
   (config) => {
     const token = getToken();
-    const rid = makeRequestId(); 
+    const rid = makeRequestId();
 
     if (token) {
       config.headers = config.headers || {};
-      config.headers.Authorization = `Bearer ${token}`;      
+      config.headers.Authorization = `Bearer ${token}`;
       config.headers["X-Request-ID"] = rid;
     }
 
     return config;
   },
-  (error) => Promise.reject(error)
+  (error) => Promise.reject(error),
 );
 
 /**
@@ -52,5 +52,5 @@ apiClient.interceptors.response.use(
       status,
       data,
     });
-  }
+  },
 );
